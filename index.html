@@ -29,6 +29,13 @@
   max-width: 100%;
   height: auto;
 }
+@media screen and (max-width: 800px) {
+
+
+.number-mobile-hide{
+display: none;
+}
+}
 </style>
 </head>
 
@@ -208,70 +215,80 @@
       
 	  <div class="row">
 	  <div class="col-lg-12 text-center">
-	  <img style="max-width:70%" class="img-mobile img-fluid d-block mx-auto" src="img/process2.jpg" >
+	  <img style="" class="img-mobile img-fluid d-block mx-auto img-process" src="img/process2.jpg" >
 	  </div>
 	  
-	 <!-- <div class="col-lg-12  text-center">
+	 <div class="col-lg-12  text-center">
 	  <div class="container">
 	  
  <div class="row">
   <div class="process">
    <div class="process-row nav nav-tabs">
-    <div class="process-step">
-     <button type="button" class="btn btn-info btn-circle" data-toggle="tab" href="#menu1"><i class="fa fa-info fa-3x"></i></button>
-     <p><small>Etap 1<br />Etape 1</small></p>
+   <div class="row">
+    <div class="process-step col-md-3">
+     <button type="button" class="btn btn-info btn-circle" data-toggle="tab" href="#menu1"><i class=""><img src="img/request.png" alt="" width="40" height="40"></i><span class="fa-stack fa-2x number-mobile-hide">
+            <i class="fas fa-circle fa-stack-1x text-primary text-number"></i>
+            <i class="fas   fa-stack-1x fa-inverse">1</i>
+          </span> </button>
+     <p><strong>Étape 1:<br class="br-desktop-hide">  </strong> <small>Votre client vous passe une commande.</small></p>
     </div>
-    <div class="process-step">
-     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu2"><i class="fa fa-file-text-o fa-3x"></i></button>
-     <p><small>Fill<br />description</small></p>
+    <div class="process-step col-md-3">
+     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu2"><i class=""><img src="img/quote.png" alt="" width="40" height="40"></i><span class="fa-stack fa-2x number-mobile-hide">
+            <i class="fas fa-circle fa-stack-1x text-primary text-number"></i>
+            <i class="fas   fa-stack-1x fa-inverse">2</i>
+          </span> </button>
+    <p><strong> Étape 2:<br class="br-desktop-hide">  </strong> <small>Apres avoir contacté votre fournisseur, il vous envoi un devis. </small></p>
     </div>
-    <div class="process-step">
-     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu3"><i class="fa fa-image fa-3x"></i></button>
-     <p><small>Upload<br />images</small></p>
+    <div class="process-step col-md-3">
+     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu3"><i class=""><img src="img/web.png" alt="" width="40" height="40"></i><span class="fa-stack fa-2x number-mobile-hide">
+            <i class="fas fa-circle fa-stack-1x text-primary text-number"></i>
+            <i class="fas   fa-stack-1x fa-inverse">3</i>
+          </span> </button>
+      <p><strong>Étape 3:<br class="br-desktop-hide">  </strong><small>Vous faites une demande et inovlendng approuve.</small></p>
     </div>
-    <div class="process-step">
-     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu4"><i class="fa fa-cogs fa-3x"></i></button>
-     <p><small>Configure<br />display</small></p>
+    <div class="process- col-md-3">
+     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu4"><i class=""><img src="img/pay.png" alt="" width="40" height="40"></i><span class="fa-stack fa-2x number-mobile-hide">
+            <i class="fas fa-circle fa-stack-1x text-primary text-number"></i>
+            <i class="fas   fa-stack-1x fa-inverse">4</i>
+          </span></button>
+      <p><strong>Étape 4:<br class="br-desktop-hide">    </strong><small>Inovlendng passe un contrat d’achat avec le fournisseur et achète la marchandise a votre place.</small></p>
     </div>
-    <div class="process-step">
-     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu5"><i class="fa fa-check fa-3x"></i></button>
-     <p><small>Save<br />result</small></p>
+    <div class="process-step col-md-3">
+     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu5"><i class=""><img src="img/bill.png" alt="" width="40" height="40"></i><span class="fa-stack fa-2x number-mobile-hide">
+            <i class="fas fa-circle fa-stack-1x text-primary text-number"></i>
+            <i class="fas   fa-stack-1x fa-inverse">5</i>
+          </span></button>
+    <p><strong>Étape 5:<br class="br-desktop-hide">   </strong> <small>Inovlendng vous envoi sa facture.</small></p>
     </div>
+	 <div class="process-step col-md-3">
+     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu6"><i class=""><img src="img/truck.png" alt="" width="40" height="40"></i><span class="fa-stack fa-2x number-mobile-hide">
+            <i class="fas fa-circle fa-stack-1x text-primary text-number"></i>
+            <i class="fas   fa-stack-1x fa-inverse">6</i>
+          </span></button>
+     <p><strong> Étape 6:<br class="br-desktop-hide">   </strong> <small>Le fournisseur vous envoie la marchandise et vous acceptez la livraison.</small></p>
+    </div>
+	 <div class="process-step col-md-3">
+     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu7"><i class=""><img src="img/delivery.png" alt="" width="40" height="40"></i><span class="fa-stack fa-2x number-mobile-hide">
+            <i class="fas fa-circle fa-stack-1x text-primary text-number"></i>
+            <i class="fas   fa-stack-1x fa-inverse">7</i>
+          </span></button>
+     <p><strong>Étape 7:<br class="br-desktop-hide">   </strong> <small>Vous livrez, facturez votre client.</small></p>
+    </div>
+	 <div class="process- col-md-3">
+     <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu7"><i class=""><img src="img/pay.png" alt="" width="40" height="40"></i><span class="fa-stack fa-2x number-mobile-hide">
+            <i class="fas fa-circle fa-stack-1x text-primary text-number"></i>
+            <i class="fas   fa-stack-1x fa-inverse">8</i>
+          </span></button>
+     <p><strong>Étape 8:<br class="br-desktop-hide">   </strong> <small>Après avoir être payé par votre client, Vous payez la facture de INOVLENDNG</small></p>
+    </div>
+	</div>
    </div>
   </div>
-  <div class="tab-content">
-   <div id="menu1" class="tab-pane fade active in">
-    <h3>Menu 1</h3>
-    <p>Some content in menu 1.</p>
-    
-   </div>
-   <div id="menu2" class="tab-pane fade">
-    <h3>Menu 2</h3>
-    <p>Some content in menu 2.</p>
-   
-   </div>
-   <div id="menu3" class="tab-pane fade">
-    <h3>Menu 3</h3>
-    <p>Some content in menu 3.</p>
-   
-   </div>
-   <div id="menu4" class="tab-pane fade">
-    <h3>Menu 4</h3>
-    <p>Some content in menu 4.</p>
-   
-   </div>
-   <div id="menu5" class="tab-pane fade">
-    <h3>Menu 5</h3>
-    <p>Some content in menu 5.</p>
 
-     
-    </ul>
-   </div>
-  </div>
  </div>
 </div>
 </div>
--->
+
 	  </div>
 	</div>
   </section>

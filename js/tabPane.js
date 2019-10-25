@@ -34,4 +34,5 @@ $(function(){
       $('[href="#'+ prevTab +'"]').tab('show');
    }
  });
+ 
 });
