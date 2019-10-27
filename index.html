@@ -20,9 +20,14 @@
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
   <link href="css/tabPane.css" rel="stylesheet">
+  
+  <!--  aditional form css  -->
+		<link rel="stylesheet" href="css/form-elements.css">
+        <link rel="stylesheet" href="css/style.css">
 <style >
 .img-resp {
   
@@ -55,10 +60,10 @@ display: none;
             <a class="nav-link js-scroll-trigger" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Comment ça marche ?</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Avantages </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about"> Avantages </a>
+            <a class="nav-link js-scroll-trigger" href="#about"> Comment ça marche ?</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team">Équipe</a>
@@ -66,6 +71,10 @@ display: none;
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
+		<!--  <li class="nav-item call-to-action">
+            <a class="nav-link js-scroll-trigger sign-up launch-modal" href="#" data-modal-id="modal-register">Inscrivez-vous</a>
+          </li>-->
+		 
         </ul>
       </div>
     </div>
@@ -75,7 +84,7 @@ display: none;
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Achetez vos marchandises sans utilisation de votre trésorerie</div>
+        <div class="intro-lead-in">Achetez vos marchandises sans utiliser votre trésorerie</div>
         <div class="intro- "><h4>Un service simple et rapide, sans caution ni garanti.</h4></div></br>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">En Savoir Plus</a>
       </div>
@@ -91,7 +100,7 @@ display: none;
         <div class="col-lg-12 text-center">
           <h3 class="section-heading text-uppercase">Services</h3>
           <h3 class="section-subheading text-muted"><p>INOVLENDNG propose un service d'approvisionnement des marchandise pour les petites et moyennes entreprises en manque de liquidité. </p>
-		  <p>Notre service permet aux TPE/PME d'acheter les produits pour ces clients sans utilisant de leur trésorier,On s'occupe de cette mission, et ne nous sont remboursé qu'après paiement par votre client.</p>
+		  <p>Notre service est distiné essentiellement aux TPE/PME  qui ont besoin d'acheter des biens sans utilisation de leur trésorier. Alors C'est nous qui s'encharge de cette mission, et ne nous seront  remboursé qu'après avoir recu le paiement par votre client.</p>
 		  </h3>
         </div>
       </div>  
@@ -244,21 +253,21 @@ display: none;
             <i class="fas fa-circle fa-stack-1x text-primary text-number"></i>
             <i class="fas   fa-stack-1x fa-inverse">3</i>
           </span> </button>
-      <p><strong>Étape 3:<br class="br-desktop-hide">  </strong><small>Vous faites une demande et inovlendng approuve.</small></p>
+      <p><strong>Étape 3:<br class="br-desktop-hide">  </strong><small>Vous faites une demande et INOVLENDNG approuve.</small></p>
     </div>
     <div class="process- col-md-3">
      <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu4"><i class=""><img src="img/pay.png" alt="" width="40" height="40"></i><span class="fa-stack fa-2x number-mobile-hide">
             <i class="fas fa-circle fa-stack-1x text-primary text-number"></i>
             <i class="fas   fa-stack-1x fa-inverse">4</i>
           </span></button>
-      <p><strong>Étape 4:<br class="br-desktop-hide">    </strong><small>Inovlendng passe un contrat d’achat avec le fournisseur et achète la marchandise a votre place.</small></p>
+      <p><strong>Étape 4:<br class="br-desktop-hide">    </strong><small>INOVLENDNG passe un contrat d’achat avec le fournisseur et achète la marchandise a votre place.</small></p>
     </div>
     <div class="process-step col-md-3">
      <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu5"><i class=""><img src="img/bill.png" alt="" width="40" height="40"></i><span class="fa-stack fa-2x number-mobile-hide">
             <i class="fas fa-circle fa-stack-1x text-primary text-number"></i>
             <i class="fas   fa-stack-1x fa-inverse">5</i>
           </span></button>
-    <p><strong>Étape 5:<br class="br-desktop-hide">   </strong> <small>Inovlendng vous envoi sa facture.</small></p>
+    <p><strong>Étape 5:<br class="br-desktop-hide">   </strong> <small>INOVLENDNG vous envoi sa facture.</small></p>
     </div>
 	 <div class="process-step col-md-3">
      <button type="button" class="btn btn-default btn-circle" data-toggle="tab" href="#menu6"><i class=""><img src="img/truck.png" alt="" width="40" height="40"></i><span class="fa-stack fa-2x number-mobile-hide">
@@ -697,6 +706,92 @@ display: none;
     </div>
   </div>
 
+  
+  
+	 <!-- MODAL Create account-->
+        <div class="modal fade" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			
+        			<div class="modal-header-register">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        				<h3 class="modal-title" id="modal-register-label">S'inscrire maintenant</h3>
+        			
+					
+					<div class="container">
+               <div class="row">
+                 <div class="col-xs12">
+               <p>Créer un compte avec nous c'est gratuit</p>
+               </div>
+            </div>
+           </div>
+					
+        			</div>
+        			
+        			<div class="modal-body">
+        				    <div class="tab-content">
+                            <div class="tab-pane active" id="features">
+							  <form role="form" action="" method="post" class="registration-form" id="form-seller">
+					        <div class="form-group">
+	                        	<label class="sr-only" for="form-email-2">Email </label>
+	                        	<input type="text" name="form-email-2" placeholder="Email..." class="form-email-2 form-control-register form-control" id="form-email-2">
+	                        </div>
+	                    	<div class="form-group">
+	                    		<label class="sr-only" for="form-name-2"> Nom </label>
+	                        	<input type="text" name="form-first-name-2" placeholder="Nom..." class="form-first-name form-control-register form-control" id="form-first-name-2">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="form-prename-2">Prènom.</label>
+	                        	<input type="text" name="form-last-name-2" placeholder="Prènom..." class="form-prename-2 form-control-register form-control" id="form-last-name-2">
+	                        </div>
+							<div class="form-group">
+	                        	<label class="sr-only" for="form-store">Nom de la Boutique.</label>
+	                        	<input type="text" name="form-store" placeholder="Nom de la Boutique..." class="form-store form-control-register form-control" id="form-store">
+	                        </div>
+							
+							<div class="form-group">
+	                        	<label class="sr-only" for="form-adresse">Adresse.</label>
+	                        	<input type="text" name="form-adresse" placeholder="Adresse..." class="form-adresse form-control-register form-control" id="form-adresse">
+	                        </div>
+							<div class="form-group">
+	                        	<label class="sr-only" for="form-postal">Code Postal.</label>
+	                        	<input type="text" name="form-postal" placeholder="Code Postal..." class="form-postal form-control-register form-control" id="form-postal">
+	                        </div>
+							<div class="form-group">
+	                        	<label class="sr-only" for="form-city">Ville.</label>
+	                        	<input type="text" name="form-city" placeholder="Ville..." class="form-city form-control-register form-control" id="form-city">
+	                        </div>
+							  <div class="form-group">
+	                        	<label class="sr-only" for="form-number-vclient">Téléphone du Service Client.</label>
+	                        	<input type="text" name="form-number-vclient" placeholder="Téléphone du Service Client..." class="form-vclient form-control-register form-control" id="form-number-vclient">
+	                        </div>
+							  <div class="form-group">
+	                        	<label class="sr-only" for="form-number-vmarketing">Téléphone du Service Commercial.</label>
+	                        	<input type="text" name="form-number-vmarketing" placeholder="Téléphone du Service Commercial..." class="form-vmarketing form-control-register form-control" id="form-number-vmarketing">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="form-notes-2" >Consignes </label>
+	                        	<textarea name="form-notes-2" placeholder="Des Consignes pour nous ..." 
+	                        				class="form-notes-2 form-control-register form-control" id="form-notes-2"></textarea>
+	                        </div>
+	                        <button type="submit" class="btn btn-form">Sign me up!</button>
+	                    </form>
+							</div>
+        
+                            </div>
+							
+	                  
+        			</div>
+        			
+        		</div>
+        	</div>
+        </div>
+
+
+  
+  
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -744,6 +839,146 @@ document.getElementById('success').innerHTML = "<div class='alert alert-success'
   $("#name").val("");
   }
   </script>
+  
+   <!--  registration for script   -->
+		 <!--  registration for script   -->
+	 <script type="text/javascript">
+	
+	 $(document).ready(function(){
+$('.alert').alert();
+		$("#from-client").submit(function(){
+
+			$.ajax({
+				type: "POST",
+				url: "/client.php",
+				data: $("#from-client").serialize(),
+				dataType: "json",
+				success: function(msg){
+					$("#formResponse").removeClass('error');
+					$("#formResponse").removeClass('success');
+					$("#formResponse").addClass(msg.status);
+					$("#formResponse").html(msg.message);
+					$("#modal-register .close").click();
+
+				},
+				error: function(){
+				   
+					$("#formResponse").removeClass('success');
+					$("#formResponse").addClass('error');
+					$("#formResponse").html("There was an error submitting the form. Please try again.");
+					$("#modal-register .close").click();
+                   $.notify("Votre inscription a  été effectué avec succès.!", "success",{
+                       // whether to hide the notification on click
+                      clickToHide: true,
+                      // whether to auto-hide the notification
+                     autoHide: true,
+                    // if autoHide, hide after milliseconds
+                     autoHideDelay: 5000,
+                   // show the arrow pointing at the element
+                       
+                   });
+				}
+			});
+
+			//make sure the form doesn't post
+			return false;
+
+		});
+		
+		
+		
+			$("#form-seller").submit(function(){
+
+			$.ajax({
+				type: "POST",
+				url: "/seller.php",
+				data: $("#form-seller").serialize(),
+				dataType: "json",
+				success: function(msg){
+					$("#formResponse").removeClass('error');
+					$("#formResponse").removeClass('success');
+					$("#formResponse").addClass(msg.status);
+					$("#formResponse").html(msg.message);
+		        	$("#modal-register .close").click();
+                   $.notify("Votre inscription a  été effectué avec succès.!", "success",{
+                       // whether to hide the notification on click
+                      clickToHide: true,
+                      // whether to auto-hide the notification
+                     autoHide: true,
+                    // if autoHide, hide after milliseconds
+                     autoHideDelay: 5000,
+                   // show the arrow pointing at the element
+                       
+                   });
+				},
+				error: function(){
+					$("#formResponse").removeClass('success');
+					$("#formResponse").addClass('error');
+					$("#formResponse").html("There was an error submitting the form. Please try again.");
+					$("#modal-register .close").click();
+                   $.notify("Votre inscription a  été effectué avec succès.!", "success",{
+                       // whether to hide the notification on click
+                      clickToHide: true,
+                      // whether to auto-hide the notification
+                     autoHide: true,
+                    // if autoHide, hide after milliseconds
+                     autoHideDelay: 5000,
+                   // show the arrow pointing at the element
+                       
+                   });
+				}
+			});
+
+			//make sure the form doesn't post
+			return false;
+
+		});
+		
+		
+		
+			$("#from-order").submit(function(){
+
+			$.ajax({
+				type: "POST",
+				url: "/order.php",
+				data: $("#from-order").serialize(),
+				dataType: "json",
+				success: function(msg){
+					$("#formResponse").removeClass('error');
+					$("#formResponse").removeClass('success');
+					$("#formResponse").addClass(msg.status);
+					$("#formResponse").html(msg.message);
+					$("#modal-order .close").click();
+
+				},
+				error: function(){
+				   
+					$("#formResponse").removeClass('success');
+					$("#formResponse").addClass('error');
+					$("#formResponse").html("There was an error submitting the form. Please try again.");
+					$("#modal-order .close").click();
+                   $.notify("Merci,votre commande est passée, elle est en cours de traitement, et nous vous contacterons dans les plus brefs délais. !", "success",{
+                       // whether to hide the notification on click
+                      clickToHide: true,
+                      // whether to auto-hide the notification
+                     autoHide: true,
+                    // if autoHide, hide after milliseconds
+                     autoHideDelay: 10000,
+                   // show the arrow pointing at the element
+                       
+                   });
+				}
+			});
+
+			//make sure the form doesn't post
+			return false;
+
+		});
+		
+
+	});
+	 
+	 </script>
   
 </body>
 
