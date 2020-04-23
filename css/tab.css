@@ -1,0 +1,80 @@
+.one {
+  color: #000000;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 100px; }
+
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none; }
+
+.atabs {
+  display: block;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  overflow: hidden; }
+  .atabs [class^="atab"] label,
+  .atabs [class*=" atab"] label {
+    color: #000000;
+    cursor: pointer;
+    display: block;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1em;
+    padding: 2rem 0;
+    text-align: center; }
+  .atabs [class^="atab"] [type="radio"],
+  .atabs [class*=" atab"] [type="radio"] {
+    border-bottom: 1px solid rgba(239, 237, 239, 0.5);
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .atabs [class^="atab"] [type="radio"]:hover, .atabs [class^="atab"] [type="radio"]:focus,
+    .atabs [class*=" atab"] [type="radio"]:hover,
+    .atabs [class*=" atab"] [type="radio"]:focus {
+      border-bottom: 1px solid #fd264f; }
+    .atabs [class^="atab"] [type="radio"]:checked,
+    .atabs [class*=" atab"] [type="radio"]:checked {
+      border-bottom: 2px solid #fd264f; }
+    .atabs [class^="atab"] [type="radio"]:checked + div,
+    .atabs [class*=" atab"] [type="radio"]:checked + div {
+      opacity: 1; }
+    .aatabs [class^="atab"] [type="radio"] + div,
+    .atabs [class*=" atab"] [type="radio"] + div {
+      display: block;
+      opacity: 0;
+      padding: 2rem 0;
+      width: 90%;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+  .atabs .atab-2 {
+    width: 50%; }
+    .atabs .atab-2 [type="radio"] + div {
+      width: 200%;
+      margin-left: 200%; }
+    .atabs .atab-2 [type="radio"]:checked + div {
+      margin-left: 0; }
+    .atabs .atab-2:last-child [type="radio"] + div {
+      margin-left: 100%; }
+    .atabs .atab-2:last-child [type="radio"]:checked + div {
+      margin-left: -100%; }
